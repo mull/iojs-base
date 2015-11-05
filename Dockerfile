@@ -1,6 +1,4 @@
-FROM mhart/alpine-iojs:2.5
+FROM mhart/alpine-node:4.2
 MAINTAINER Emil Ahlbäck "e.ahlback@gmail.com"
 
-RUN apk-install \
-  bash\
-  git
+RUN apk add --update bash git

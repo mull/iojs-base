@@ -1,4 +1,4 @@
-NAME 		= mullsork/iojs-base
+NAME 		= mullsork/nodejs-base
 
 all: build
 
