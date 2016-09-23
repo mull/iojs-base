@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:4.4
+FROM mhart/alpine-node:6.6
 MAINTAINER Emil Ahlbäck "e.ahlback@gmail.com"
 
 RUN apk add --update bash git
